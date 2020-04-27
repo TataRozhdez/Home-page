@@ -1,0 +1,33 @@
+.header-menu {
+  width: 100%;
+  display: flex;
+  margin-top: 50px;
+}
+.logo {
+  width: 250px;
+  margin-left: 100px;
+}
+.menu {
+  width: calc(100% - 550px);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 14px;
+  margin: 0 auto;
+}
+.sources:not(:last-child) {
+  margin-right: 30px;
+}
+.sources:last-child {
+  background: var(--base-text-color);
+  border-radius: 4px;
+  text-align: center;
+  color: #FF6845;
+  padding: 8px 35px;
+}
+.sources:last-child:hover{
+  border: 2px solid #FF6845;
+}
+.sources:not(:last-child):hover {
+  text-decoration: underline;
+}

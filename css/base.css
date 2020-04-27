@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --base-text-color: #FFFFFF;
+  --base-background-color: #33CCCC;
+}
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--base-background-color);
+  color: var(--base-text-color);
+}
+a {
+  text-decoration: none;
+  color: var(--base-text-color);
+}

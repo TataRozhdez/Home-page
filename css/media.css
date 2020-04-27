@@ -1,0 +1,45 @@
+@media (max-device-width: 1390px) {
+  .main {
+    height: 70vh;
+    margin: 0 auto;
+  }
+  .iphone-clay {
+    width: 250px;
+  }
+  .side-img {
+    width: 150px;
+  }
+ }
+ @media (max-device-width: 960px) {
+  .main {
+    margin-right: 20px;
+  }
+  .logo {
+    width: 150px;
+    margin-left: 50px;
+  }
+  .menu {
+    justify-content: end;
+    width: 40%;
+  } 
+  .side-img {
+    width: 100px;
+  }
+  .iphone-clay {
+    width: 160px;
+  }
+ }
+ @media (max-device-width: 690px) {
+   .tel {
+    display: none;
+   }
+   .menu {
+    width: 90%;
+    margin-top: 10px;
+    justify-content: space-around;
+   }
+   .header-menu {
+    flex-wrap: wrap;
+   }
+ }
+ @@media (max-device-width: 510px) 
